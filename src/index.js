@@ -1,5 +1,5 @@
-// const path = require('path')         // Not supported by Nodejs 
-import path from 'path'
+const path = require('path')
+// import path from 'path'         // Not supported by Nodejs 
 
 module.exports = {
     name: "@devbit/vuepress-slides",
