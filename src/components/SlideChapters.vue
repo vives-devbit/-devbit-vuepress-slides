@@ -12,6 +12,7 @@ export default {
   components: { ChapterSummary },
   methods: {
     chapters() {
+      console.log(this.$site.pages)
       return this.$site.pages
       // .filter((page) => page.path.startsWith("/slides/"))
       .filter((page) => !page.frontmatter.draft )
